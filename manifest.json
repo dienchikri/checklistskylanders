@@ -1,0 +1,19 @@
+{
+  "name": "Skylanders Collection Vault",
+  "short_name": "collection Vault",
+  "description": "Track and manage your Skylanders collection with ease.",
+  "start_url": "/auth/login.php",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#00bcd4",
+  "icons": [
+    {
+      "src": "/assets/logoimg/collectionvault.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

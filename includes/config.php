@@ -1,0 +1,14 @@
+<?php
+$host = 'localhost';
+$db   = 'c1checklist';
+$user = 'c1198083';
+$pass = 'Dien2008';
+
+try {
+    $pdo = new PDO("mysql:host=$host;dbname=$db;charset=utf8", $user, $pass);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    die("Database connection failed: " . $e->getMessage());
+}
+?>
+
